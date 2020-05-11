@@ -2,24 +2,24 @@
   <form class="jumbotron">
   <h3 >Nuovo Fiore</h3>
   <div>
+    <label for="specie">Specie</label>
+    <input name="specie" #newSpecie class="form-control">
+  </div>
+  <div>
     <label for="altezza">Altezza</label>
     <input name="altezza" #newAltezza class="form-control">
   </div>
   <div>
     <label for="colore">Colore</label>
-    <input name="colore" #newColor class="form-control">
+    <input name="colore" #newColore class="form-control">
   </div>
   <div>
     <label for="periodo">Periodo fioritura</label>
-    <input name="periodo" #newPeriod class="form-control">
-  </div>
-  <div>
-    <label for="specie">Specie</label>
-    <input name="specie" #newSpecie class="form-control">
+    <input name="periodo" #newPeriodo class="form-control">
   </div>
 
-//(click)="addFiore(newAltezza, newColor, newPeriod, newSpecie)"
-  <button  class="btn btn-primary">
+
+  <button (click)="addFiore(newSpecie, newAltezza, newColore, newPeriodo)"  class="btn btn-primary">
   aggiungi
   </button>
 </form>
