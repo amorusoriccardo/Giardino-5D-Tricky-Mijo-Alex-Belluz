@@ -24,4 +24,16 @@
   </button>
 </form>
 </div>
+<button (click)="getFioriList()" class="btn btn-secondary">
+  lista fiori
+</button>
+<div class="row">
+<div class="col-sm-9 col-md-6">
+<div *ngFor="let fiore of Fiori" class="unit">
+  <h1>{{fiore.Specie}} </h1>
+  altezza: {{fiore.Altezza}} <br>
+  colore: {{fiore.Colore}}<br>
+  periodo fioritura: {{fiore.Periodo}}<br>
 
+</div>
+</div>
