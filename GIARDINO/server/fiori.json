@@ -1,0 +1,19 @@
+{
+ "Fiore": [
+   {
+     
+     "Specie": "Margherita",
+     "Altezza": "5cm",
+     "Colore": "Bianco",
+     "Periodo": "Primavera"
+       
+   },
+
+   {
+     "Specie": "Rosa",
+     "Altezza": "6cm",
+     "Colore": "Rosso",
+     "Periodo": "Primavera"
+   }
+ ]
+}
